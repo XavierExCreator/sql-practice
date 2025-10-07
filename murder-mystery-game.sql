@@ -39,5 +39,13 @@ BONUS:
 SELECT * FROM drivers_license WHERE hair_color = 'red' AND height BETWEEN '65' AND '67' AND car_make = 'Tesla'; 
 -Three woman are suspects
 SELECT * FROM person WHERE license_id = '202298' OR license_id = '291182' OR license_id = '918773'; 
+-Who was at the facebook event for so long?
+SELECT * FROM facebook_event_checkin
+WHERE event_name LIKE '%Symphony%' AND person_id = '99716';
 Miranda Priestly made the kill!
 */
+--info FOUND:
+IT WAS MIRANDA 
+99716	1143	SQL Symphony Concert	20171206
+99716	1143	SQL Symphony Concert	20171212
+99716	1143	SQL Symphony Concert	20171229
