@@ -44,8 +44,4 @@ SELECT * FROM facebook_event_checkin
 WHERE event_name LIKE '%Symphony%' AND person_id = '99716';
 Miranda Priestly made the kill!
 */
---info FOUND:
-IT WAS MIRANDA 
-99716	1143	SQL Symphony Concert	20171206
-99716	1143	SQL Symphony Concert	20171212
-99716	1143	SQL Symphony Concert	20171229
+
